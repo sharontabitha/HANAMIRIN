@@ -1,0 +1,8 @@
+.pwa-install{position:fixed;right:24px;bottom:24px;z-index:20;display:grid;justify-items:end;gap:10px}
+.pwa-install-button{display:flex;align-items:center;gap:8px;padding:11px 16px;border:0;border-radius:999px;background:#e9775c;color:#fffefa;font-size:13px;font-weight:700;box-shadow:0 6px 20px #302d2a24}
+.pwa-install-button:hover{background:#d9674d}
+.pwa-install-help{position:relative;display:grid;gap:6px;max-width:290px;padding:16px 38px 16px 16px;border:1px solid #eae7df;border-radius:12px;background:#fffefa;color:#302d2a;box-shadow:0 6px 24px #302d2a1c}
+.pwa-install-help b{font-size:13px}
+.pwa-install-help span{font-size:12px;line-height:1.5;color:#77736c}
+.pwa-install-close{position:absolute;top:10px;right:10px;display:grid;place-items:center;width:25px;height:25px;border:0;border-radius:50%;background:#f5f2eb;color:#77736c}
+@media(max-width:680px){.pwa-install{right:16px;bottom:16px}.pwa-install-button{padding:10px 14px;font-size:12px}}
